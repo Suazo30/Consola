@@ -1,0 +1,221 @@
+:root{
+    --color-base: #ded3ccc5;
+    --color-marco: #797688;
+    --color-pantalla: #9ca04c;
+    --color-botones: #71001a;
+    --color-cruceta: #06090c;
+}
+.contenedor{
+    width: 200px;
+    height: 300;
+    position: center;
+}
+
+.cuerpo{
+    width: 250px;
+    height: 390px;
+    background-color: var(--color-base);
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    top: 90px;
+    border-radius: 15px 15px 60px 15px;
+}
+
+.marco-pantalla{
+    width: 200px;
+    height: 170px;
+    background-color: var(--color-marco);
+    position: absolute;
+    left: 25px;
+    top: 25px; 
+}
+
+.pantalla{
+    width: 150px;
+    height: 140px;
+    background-color: var(--color-pantalla);
+    position: absolute;
+    left: 25px;
+    top: 15px; 
+}
+
+.contenedor-cruceta{
+    width: 70px;
+    height: 70px;
+    background-color: var(--color-base);
+    position: relative;
+    left: 30px;
+    top: 225px;
+    box-shadow: -5px 5px 13px -10px black;
+    border-radius: 50%;
+}
+
+.cruceta{
+    cursor: pointer;
+    width: 15px;
+    height: 60px;
+    background-color: var(--color-cruceta);
+    position: absolute;
+    top: 5px;
+    left: 28px;
+}
+
+.cruceta::after{
+    content: '';
+    width: 15px;
+    height: 60px;
+    background-color: var(--color-cruceta);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: rotate(90deg);
+}
+
+.contenedor-botones{
+    width: 95px;
+    height: 49px;
+    background-color: var(--color-base);
+    position: relative;
+    left: 148px;
+    top: 180px;
+    box-shadow: -5px 5px 13px -10px rgb(21, 15, 15);
+    border-radius: 45%;
+    transform: rotate(-25deg);
+}
+
+.botones,.botones::after{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-botones);
+    position: absolute;
+    top: 270px;
+    left: 160px;
+    border-radius: 50%;
+    box-shadow: inset 0px 9px 10px -5px;
+}
+
+.botones::after{
+    content: '';
+    top: -20px;
+    left: 40px;
+}
+
+.boton-select{
+    cursor: pointer;
+    width: 30px;
+    height: 10px;
+    background-color:black;
+    position: absolute;
+    top: 350px;
+    left: 80px;
+    border-radius: 10px;
+}
+
+.boton-start{
+    cursor: pointer;
+    width: 30px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 350px;
+    left: 70px;
+    border-radius: 10px;
+}
+
+.boton-start{
+    left: 120px;
+}
+
+.boton-select p, .boton-start p{
+    font-size: 9px;
+}
+
+.altavoces {
+    width: 110px;
+    height: 80px;
+    background-color: transparent;
+    position: absolute;
+    top: 310px;
+    left: 185px;
+    transform:rotate(-38deg)
+}
+
+.altavoz1, .altavoz2, .altavoz3, .altavoz4, .altavoz5, .altavoz6{
+    width: 4px;
+    height: 40px;
+    background-color: rgb(86, 90, 83);
+    box-shadow: inset 0px -5px 13px -4px rgb(21, 15, 15);
+    border-radius: 15px;
+}
+.altavoz1{
+    position: absolute;
+    left: 0px;
+}
+.altavoz2{
+    position: absolute;
+    left: 11px;
+}
+.altavoz3{
+    position: absolute;
+    left: 22px;
+}
+.altavoz4{
+    position: absolute;
+    left: 33px;
+}
+.altavoz5{
+    position: absolute;
+    left: 44px;
+}
+.altavoz6{
+    position: absolute;
+    left: 55px;
+}
+
+.ojos, .ojos::before{
+    width: 20px;
+    height: 20px;
+    background-color: #71001a;
+    position: absolute;
+    top: 90px;
+    left: 80px;
+    border-radius: 50%;
+}
+
+.ojos::before{
+    content: '';
+    top: 0px;
+    left: 70px;
+}
+
+.pupilas, .pupilas::before{
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 94px;
+    left: 84px;
+    border-radius: 50%;
+}
+
+.pupilas::before{
+    content: '';
+    top: 0px;
+    left: 70px;
+}
+ 
+.boca{
+    width: 30px;
+    height: 10px;
+    position: absolute;
+    background-color: #71001a;
+    top: 135px;
+    left: 125px;
+    transform: translate(-50%);
+    border-radius: 40%;
+    border-color: transparent transparent;
+    border-style: solid;
+    border-width: 2px;
+}
