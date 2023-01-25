@@ -1,6 +1,6 @@
 # Consola
 
-El proyecto consiste crear una Game boy donde se ha utilizado CSS y HTML. Este ha sido nuestro primer proyecto a presentar en el Bootcamp Full Stack Developer el cual esta siendo impartido por GeeksHups Academy.
+El proyecto consiste en crear una Game boy donde se ha utilizado CSS y HTML. Este ha sido nuestro primer proyecto a presentar en el Bootcamp Full Stack Developer el cual esta siendo impartido por GeeksHups Academy.
 
 Detalles: Consta de un cuerpo, marco de pantalla, pantalla, un contenedor cruceta, cruceta, contenedor botones, botones, boton-select, boton-start, 6 alatavoces, una cara, ojos, pupilas y boca.
 
